@@ -1,0 +1,17 @@
+void main(){
+  /// syntax :
+  /*    initialisation;
+        while(condition checking){
+        statement to be executed;
+        increment/decrement counter;
+
+   }
+  */
+
+  int i = 1;
+  while(i <= 10){
+    // i++;    we can write incr/decre counter here or below
+    print(i);
+    i++;
+  }
+}

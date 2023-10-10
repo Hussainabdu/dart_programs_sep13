@@ -1,17 +1,14 @@
 class A{
   void show(){
     print('Show Function ');
-
   }
 
   void display(){
     print('display function');
-
   }
 
   void ask(){
     print('ask something');
-
   }
 }
 // cascade notation operator  ..
