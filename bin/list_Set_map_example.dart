@@ -1,4 +1,6 @@
 void main(){
+  /// List - ordered collection of values , support duplicate values
+
   var numbers = [1,2,4,8,10,20,12,78,85];
   List<int> list1=[100,200,300,400,500];
   print("number : $numbers");
@@ -19,10 +21,12 @@ void main(){
     print(i);
 
     ///for each
+
     list1.forEach((element) {
      print(element);
     });
   } ///set  - {} unordered collection,does notsupport duplicate values
+
   var set1 ={};
   var set2 ={1,2,3,4,5,6,7,'hello'};
   Set<int> set3 ={10,20,30,40};
@@ -42,6 +46,7 @@ void main(){
 
 
   /// map  - stores values as key - value pairs keys must be unique values can be same or different
+
   Map<String,dynamic> map1={'name':'hussain','age':21,'mark':10.2,'phone': 0987654321};
   map1.addAll({'email':'hussain@gmail.com'});
   map1['pincode']=670591;
