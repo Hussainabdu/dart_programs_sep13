@@ -8,8 +8,16 @@ void main(){
   print('enter your cgpa');
   double mark = double.parse(stdin.readLineSync()!);
 
-  print('Name = $name');
-  print('Age = $age');
-  print('Mark = $mark');
+  // print('Name = $name');
+  // print('Age = $age');
+  // print('Mark = $mark');
+
+
+  stdout.writeln("Name : $name");
+  stdout.writeln("Age : $age");
+  stdout.writeln("Mark : $mark");
+
+  /// stdout.write()  -> print all the datas in single line
+  /// stdout.write()  -> print all the data in new new line similar to print
 
 }

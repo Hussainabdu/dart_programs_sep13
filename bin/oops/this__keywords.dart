@@ -22,5 +22,7 @@ class Demo {
 void main(){
   Demo obj = Demo("hello", 2023);
   obj.show();
+
+  // Demo.x = 1000;
 }
 
